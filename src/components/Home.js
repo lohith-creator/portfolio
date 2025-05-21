@@ -13,7 +13,8 @@ function Home() {
         playsInline
         className="absolute w-full h-full object-cover brightness-75"
       >
-        <source src="/videos/home_v.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dhcoqed13/video/upload/v1747869868/icuuyal36w8mestgxwdr.mp4" type="video/mp4" />
+
         Your browser does not support the video tag.
       </video>
 
