@@ -17,7 +17,7 @@ function Projects() {
   </p>
   <div className="mt-4 space-x-4">
     <a
-      href="https://github.com/yourusername/resume-keyword-scanner"
+      href="https://github.com/lohith-creator/Resume-keyword-scanner.git"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-blue-600 hover:underline"
@@ -25,14 +25,14 @@ function Projects() {
       View on GitHub
     </a>
     {/* Optional: Live demo link */}
-    {/* <a
-      href="https://yourstreamlitapp.com"
+    { <a
+      href="https://resume-keyword-scanner-olrz2gjzdckancg7gjegxj.streamlit.app/"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-green-600 hover:underline"
     >
       Live Demo
-    </a> */}
+    </a> }
   </div>
 </div>
 
@@ -42,15 +42,20 @@ function Projects() {
     Fake News Detection Using Machine Learning
   </h3>
   <p className="text-gray-700 text-sm leading-relaxed">
-    Developed a machine learning-based application to classify news content as real or fake in response to the rising issue of digital misinformation. The system is built using Python and Scikit-learn, utilizing a labeled dataset of real and fake news articles.
-    <br /><br />
-    Text data is preprocessed with NLP techniques like tokenization, stop-word removal, TF-IDF vectorization, and then passed into a Logistic Regression model — chosen for its accuracy and interpretability. The trained model is served through a Flask-based API.
-    <br /><br />
-    A user-friendly Streamlit interface allows real-time input of news headlines or paragraphs to receive instant predictions with confidence scores. This project demonstrates full-stack ML deployment and was successfully presented during academic evaluations.
+   Developed a machine learning-powered application to classify news content as real or fake, addressing the growing challenge of digital misinformation.
+  <br /><br />
+  The system is built using Python, Scikit-learn, and Flask, and is trained on a combined dataset of labeled real and fake news articles.
+  NLP techniques such as tokenization, stop-word removal, and TF-IDF vectorization were applied to extract meaningful features from raw text.
+  <br /><br />
+  A Logistic Regression model — selected for its balance of accuracy and interpretability — powers the classification.
+  The trained model is deployed via a RESTful Flask API that accepts user input and returns predictions in JSON format.
+  <br /><br />
+  The model is persisted using joblib for fast, real-time inference, and the pipeline is enhanced with a Streamlit interface
+  that allows users to enter news content and instantly view results with a confidence score.
   </p>
   <div className="mt-4 space-x-4">
     <a
-      href="https://github.com/yourusername/fake-news-detector"
+      href="https://github.com/lohith-creator/fake-news-detection.git"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-blue-600 hover:underline"

@@ -53,13 +53,14 @@ function Home() {
         {/* Action Buttons */}
         <div className="mt-8 flex space-x-4">
           <a
-            href="/lohith_R_1.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-red-500 border-2 border-red-500 text-white rounded-md hover:bg-red-500 transition"
-          >
-            Get Resume
-          </a>
+  href="https://drive.google.com/file/d/1s5xwCIlasHL09gnQBw8RMFbeAS31BGgX/view"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 bg-red-500 border-2 border-red-500 text-white rounded-md hover:bg-red-500 transition"
+>
+  Get Resume
+</a>
+
 
           <a
             href="#about"
