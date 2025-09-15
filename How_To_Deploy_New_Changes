@@ -1,0 +1,29 @@
+✅ Step-by-Step to Push to GitHub & Deploy
+🔹 1. Save your changes in VS Code
+
+Make sure all your files (like Projects.js) are saved.
+
+🔹 2. Open your terminal and go to the project folder
+cd C:\Users\Lohith\portfolio
+
+🔹 3. Stage all changes
+git add -A
+
+
+✅ This adds all new/modified files to the staging area.
+
+🔹 4. Commit your changes with a message
+git commit -m "Updated Projects section with new descriptions and GitHub links"
+
+🔹 5. Push to GitHub
+git push origin main
+
+
+This updates your GitHub repository.
+
+🔹 6. Redeploy to GitHub Pages
+npm run deploy
+
+
+✅ This will update https://lohith-creator.github.io/portfolio
+ with your new Projects section.
